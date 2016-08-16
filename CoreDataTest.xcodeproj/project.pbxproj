@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6564F1231D6308EA00B2E6EB /* CoreDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6564F11F1D6308EA00B2E6EB /* CoreDataCenter.m */; };
+		6564F1241D6308EA00B2E6EB /* NSObject+ZYPot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6564F1211D6308EA00B2E6EB /* NSObject+ZYPot.m */; };
 		659CD77F1BCF78A7008B557E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CD77E1BCF78A7008B557E /* main.m */; };
 		659CD7821BCF78A7008B557E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CD7811BCF78A7008B557E /* AppDelegate.m */; };
 		659CD7851BCF78A7008B557E /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659CD7831BCF78A7008B557E /* CoreDataTest.xcdatamodeld */; };
@@ -15,6 +17,7 @@
 		659CD78D1BCF78A7008B557E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659CD78C1BCF78A7008B557E /* Images.xcassets */; };
 		659CD7901BCF78A7008B557E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659CD78E1BCF78A7008B557E /* LaunchScreen.xib */; };
 		659CD79C1BCF78A7008B557E /* CoreDataTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CD79B1BCF78A7008B557E /* CoreDataTestTests.m */; };
+		659CD7AA1BCF7A27008B557E /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 659CD7A91BCF7A27008B557E /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6564F11E1D6308EA00B2E6EB /* CoreDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataCenter.h; sourceTree = "<group>"; };
+		6564F11F1D6308EA00B2E6EB /* CoreDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataCenter.m; sourceTree = "<group>"; };
+		6564F1201D6308EA00B2E6EB /* NSObject+ZYPot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYPot.h"; sourceTree = "<group>"; };
+		6564F1211D6308EA00B2E6EB /* NSObject+ZYPot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZYPot.m"; sourceTree = "<group>"; };
+		6564F1221D6308EA00B2E6EB /* ZYPot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPot.h; sourceTree = "<group>"; };
 		659CD7791BCF78A7008B557E /* CoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659CD77D1BCF78A7008B557E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659CD77E1BCF78A7008B557E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,8 @@
 		659CD7951BCF78A7008B557E /* CoreDataTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659CD79A1BCF78A7008B557E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		659CD79B1BCF78A7008B557E /* CoreDataTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestTests.m; sourceTree = "<group>"; };
+		659CD7A81BCF7A27008B557E /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		659CD7A91BCF7A27008B557E /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6564F11D1D6308EA00B2E6EB /* CoreDataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6564F11E1D6308EA00B2E6EB /* CoreDataCenter.h */,
+				6564F11F1D6308EA00B2E6EB /* CoreDataCenter.m */,
+				6564F1201D6308EA00B2E6EB /* NSObject+ZYPot.h */,
+				6564F1211D6308EA00B2E6EB /* NSObject+ZYPot.m */,
+				6564F1221D6308EA00B2E6EB /* ZYPot.h */,
+			);
+			path = CoreDataCenter;
+			sourceTree = "<group>";
+		};
 		659CD7701BCF78A7008B557E = {
 			isa = PBXGroup;
 			children = (
+				6564F11D1D6308EA00B2E6EB /* CoreDataCenter */,
 				659CD77B1BCF78A7008B557E /* CoreDataTest */,
 				659CD7981BCF78A7008B557E /* CoreDataTestTests */,
 				659CD77A1BCF78A7008B557E /* Products */,
@@ -83,6 +106,8 @@
 		659CD77B1BCF78A7008B557E /* CoreDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				659CD7A81BCF7A27008B557E /* Dog.h */,
+				659CD7A91BCF7A27008B557E /* Dog.m */,
 				659CD7801BCF78A7008B557E /* AppDelegate.h */,
 				659CD7811BCF78A7008B557E /* AppDelegate.m */,
 				659CD7861BCF78A7008B557E /* ViewController.h */,
@@ -224,8 +249,11 @@
 			files = (
 				659CD7821BCF78A7008B557E /* AppDelegate.m in Sources */,
 				659CD7851BCF78A7008B557E /* CoreDataTest.xcdatamodeld in Sources */,
+				659CD7AA1BCF7A27008B557E /* Dog.m in Sources */,
 				659CD7881BCF78A7008B557E /* ViewController.m in Sources */,
+				6564F1241D6308EA00B2E6EB /* NSObject+ZYPot.m in Sources */,
 				659CD77F1BCF78A7008B557E /* main.m in Sources */,
+				6564F1231D6308EA00B2E6EB /* CoreDataCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +450,7 @@
 				659CD7A11BCF78A7008B557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		659CD7A21BCF78A7008B557E /* Build configuration list for PBXNativeTarget "CoreDataTestTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +459,7 @@
 				659CD7A41BCF78A7008B557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
